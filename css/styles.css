@@ -1,0 +1,88 @@
+body {
+  display: flex;  
+  flex-direction: column;
+  padding-top: 56px; 
+  min-height: 100vh;  
+}
+
+main {
+  flex: 1;  
+}
+
+#carouselExampleIndicators img {
+  width: 100%;  
+  
+  height: calc(100vh - 56px - 50px);
+  object-fit: cover;  
+}
+
+#second-navbar {
+  background-color: rgb(124, 154, 143);
+  display: flex;  
+}
+#second-navbar a {
+  height: 50px;
+  flex: 1;  
+  display: flex;  
+  justify-content: center;  
+  align-items: center; 
+}
+#second-navbar a:hover {
+  background-color: rgba(52, 25, 101, 0.1);  
+}
+
+.container {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+hr {
+  
+  width: 75%;
+  border: 1.5px solid rgb(227, 203, 234);
+  border-radius: 50%;
+}
+
+#useful-information img{
+  width: 100%;  
+  margin: 15px 0;
+}
+
+footer {
+  display: flex;  
+  justify-content: center;  
+  background-color: rgb(66, 77, 57);
+  height: 100px;
+  padding: 20px;
+}
+
+footer a {
+  margin: 5px;
+  text-decoration: none!important;
+}
+
+.social-icon {
+  display: inline-flex; 
+  width: 50px;
+  height: 50px;
+  color: rgb(66, 77, 57);
+  background-color: rgb(207, 183, 183);
+  justify-content: center;  
+  align-items: center;  
+  border-radius: 50%;  
+}
+
+.social-icon:hover {
+  color: #222;  
+}
+
+#go-top-button {
+  width: 50px;
+  height: 50px;
+  display: none;  
+  position: fixed;  
+  bottom: 20px;  
+  right: 30px;  
+  z-index: 99;  
+  border-radius: 50%;  /
+}
